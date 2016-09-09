@@ -12,6 +12,9 @@ for file in ~/.config/fish/conf.d/*.fish
     source $file
 end
 
+set -x PATH $HOME/.rbenv/shims $PATH
+rbenv rehash >/dev/null ^&1
+
 set -x PATH /usr/local/bin $PATH
 set -x PATH /usr/local/sbin $PATH
 set -x PATH /usr/local/heroku/bin $PATH
