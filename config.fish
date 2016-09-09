@@ -52,6 +52,10 @@ function lsd
    ls -d */
 end
 
+function rake
+   bundle exec rake $argv
+end
+
 # Colorful man pages in Fish shell http://askubuntu.com/a/650192
 set -x LESS_TERMCAP_mb (printf "\033[01;31m")
 set -x LESS_TERMCAP_md (printf "\033[01;31m")
