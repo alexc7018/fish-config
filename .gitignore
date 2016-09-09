@@ -1,0 +1,8 @@
+/*
+!.gitignore
+!README.md
+!config.fish
+!functions
+functions/*
+!functions/fish_prompt.fish
+
